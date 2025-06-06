@@ -9,27 +9,15 @@ This project provides a **comprehensive analysis and forecasting** of New York C
 The primary goal is to build robust forecasting models that can capture the complex **patterns, trends, and seasonality** in NYC taxi usage over more than a decade.
 
 ---
+**Results:**
+  XGBoost's RMSE: 1974.8699
+  LSTM's RMSE: 0.0095
 
 ## 📂 Data Source
 
 - **Dataset:** NYC Yellow Taxi Trip Records  
 - **Time Period:** January 2011 – November 2024  
 - **Format:** Parquet files, organized by year and month.
-
-### 📁 Directory Structure Example
-
-Taxi/
-├── 2011/
-│ ├── yellow_tripdata_2011-01.parquet
-│ └── ...
-├── 2012/
-│ ├── yellow_tripdata_2012-01.parquet
-│ └── ...
-...
-└── 2024/
-├── yellow_tripdata_2024-01.parquet
-└── ...
-
 
 ---
 
