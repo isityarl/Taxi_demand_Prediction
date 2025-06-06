@@ -15,7 +15,7 @@ The primary goal is to build robust forecasting models that can capture the comp
 
 ## 📂 Data Source
 
-- **Dataset:** NYC Yellow Taxi Trip Records  
+- **Dataset:** NYC Yellow Taxi Trip Records Link: `https://drive.google.com/uc?export=view&id=1BqwN4ogQLHim_MOIVPUgwoiyupdSvo6l`
 - **Time Period:** January 2011 – November 2024  
 - **Format:** Parquet files, organized by year and month.
 
