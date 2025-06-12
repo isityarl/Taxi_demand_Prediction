@@ -1,6 +1,6 @@
 # NYC Yellow Taxi Trip Count Forecasting
 
-This project provides a **comprehensive analysis and forecasting** of New York City's Yellow Taxi trip counts using a large dataset spanning from **2011 to 2024**. It leverages **PySpark** for large-scale data processing and implements two advanced machine learning models—**XGBoost** and an **LSTM neural network**—to predict **hourly taxi demand**.
+**Forecasting** of New York City's Yellow Taxi trip counts using a large dataset spanning from **2011 to 2024**. Implementation of two models—**XGBoost** and an **LSTM neural network**—to predict **hourly taxi demand**.
 
 ---
 
