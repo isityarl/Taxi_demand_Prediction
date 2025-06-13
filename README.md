@@ -21,10 +21,13 @@ The primary goal is to build robust forecasting models that can capture the comp
 **Daily**
 ![image](https://github.com/user-attachments/assets/11bdf3ce-968b-40ba-8a17-8d6bfcca4e82)
 
-
+Test RMSE: 0.0093
+Test R²: 0.9635
 ## Results:
-  XGBoost's RMSE: 1974.8699
-  LSTM's RMSE: 0.0095
+- **XGBoost's RMSE: 1974.1939** 
+- **XGBoost's R2 : 0.7352**  
+- **LSTM's RMSE: 0.0093** 
+- **LSTM's R2 : 0.9635** 
 
 XGBOOST couldn't handle COVID event, so used `2011-2019` 
   
