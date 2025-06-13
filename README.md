@@ -7,12 +7,28 @@
 The primary goal is to build robust forecasting models that can capture the complex **patterns, trends, and seasonality** in NYC taxi usage over more than a decade.
 
 
-**Results:**
-  XGBoost's RMSE: 1974.8699
-  LSTM's RMSE: 0.0095
+
 
 ## Data Source
 
 - **Dataset:** NYC Yellow Taxi Trip Records. Link: `https://drive.google.com/uc?export=view&id=1BqwN4ogQLHim_MOIVPUgwoiyupdSvo6l`
 - **Time Period:** January 2011 – November 2024  
 - **Format:** Parquet files, organized by year and month.
+
+`Hourly`
+![image](https://github.com/user-attachments/assets/4ce05a67-7bb3-4ff8-b44b-091a1bbcc4fa)
+
+`Daily`
+![image](https://github.com/user-attachments/assets/11bdf3ce-968b-40ba-8a17-8d6bfcca4e82)
+
+
+**Results:**
+  XGBoost's RMSE: 1974.8699
+  LSTM's RMSE: 0.0095
+  
+actual vs predicted 1 day mean hour xgboost
+![image](https://github.com/user-attachments/assets/74baebe1-5758-4c63-9415-19aa2496eb05)
+
+actual vs predicted 2019-05-10:2019-06-10 hour xgboost
+![image](https://github.com/user-attachments/assets/0aa087f5-f0dc-4b54-b143-ebbc7416774c)
+
